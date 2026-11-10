@@ -1,5 +1,8 @@
-{
-  "builds": [
-    { "src": "pxxl.html", "use": "@pxxl/static" }
-  ]
-}
+version = 1
+
+[build]
+language = "html"
+baseDirectory = "/"
+
+[routing]
+cleanUrls = true
